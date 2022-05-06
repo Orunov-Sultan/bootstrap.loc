@@ -59,10 +59,10 @@ p {
 /*Title Image*/
 
 .title-image {
-    width: 60%;
+    width: 65%;
     transform: rotate(25deg);
     position: absolute;
-    right: 26%;
+    right: 30%;
 }
 
 /*Features Section*/
@@ -125,4 +125,30 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
