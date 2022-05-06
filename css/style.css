@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -140,6 +144,18 @@ p {
     font-weight: 700;
     font-size: 3.5rem;
     line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social {
+    padding: 20px 10px;
+    display: inline-block;
 }
 
 @media (max-width: 1028px){
